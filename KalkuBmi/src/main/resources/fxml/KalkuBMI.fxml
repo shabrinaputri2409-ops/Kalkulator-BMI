@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="384.0" prefWidth="633.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/26" fx:controller="controller.KalkuBMIController">
+   <children>
+      <Label fx:id="lblTitle" alignment="CENTER" layoutX="166.0" layoutY="28.0" prefHeight="29.0" prefWidth="299.0" text="Body Mass Index Calculator">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSubtitle" layoutX="40.0" layoutY="73.0" prefHeight="17.0" prefWidth="98.0" text="Body Mass Index" />
+      <Label fx:id="lblGender" layoutX="40.0" layoutY="116.0" prefHeight="17.0" prefWidth="45.0" text="Gender" />
+      <Label fx:id="lblTinggi" layoutX="40.0" layoutY="164.0" text="Tinggi" />
+      <Label fx:id="lblBerat" layoutX="43.0" layoutY="215.0" text="Berat" />
+      <ComboBox fx:id="cbGender" layoutX="107.0" layoutY="112.0" prefHeight="32.0" prefWidth="371.0" promptText="Pilih Jenis Kelamin" />
+      <TextField fx:id="txtTinggi" layoutX="107.0" layoutY="160.0" prefHeight="32.0" prefWidth="299.0" />
+      <Label layoutX="431.0" layoutY="164.0" text="Cm" />
+      <TextField fx:id="txtBerat" layoutX="107.0" layoutY="208.0" prefHeight="32.0" prefWidth="299.0" />
+      <Label layoutX="431.0" layoutY="215.0" prefHeight="17.0" prefWidth="18.0" text="Kg" />
+      <Button fx:id="btnHitung" layoutX="175.0" layoutY="256.0" mnemonicParsing="false" onAction="#hitungBmi" prefHeight="32.0" prefWidth="285.0" text="Hitung" />
+      <Label fx:id="lblHasil" alignment="CENTER" layoutX="241.0" layoutY="305.0" prefHeight="52.0" prefWidth="161.0" />
+   </children>
+</AnchorPane>
