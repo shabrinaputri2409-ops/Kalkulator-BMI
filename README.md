@@ -36,10 +36,8 @@ Sebelum menjalankan aplikasi, pastikan perangkat sudah memiliki:
 Buka Command Prompt atau terminal, kemudian jalankan perintah berikut:
 
 ```bash
-git clone https://github.com/USERNAME/KalkulatorBMI.git
+git clone https://github.com/shabrinaputri2409-ops/KalkulatorBMI.git
 ```
-
-Ganti `USERNAME` dengan username GitHub pemilik repository.
 
 ### 2. Masuk ke Folder Project
 
